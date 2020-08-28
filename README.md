@@ -2,9 +2,11 @@ An nginx image with added net-tools package in order to ensure you can run netwo
 
 The image is used with ruby gems:
 
+```
 serverspec
 docker-api
 specinfra-backend-docker_compose
+```
 
 Alongside this, it is important that you have your rspec set with:
 
