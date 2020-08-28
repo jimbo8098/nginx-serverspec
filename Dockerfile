@@ -1,2 +1,3 @@
 FROM nginx
-RUN apt install ss
+RUN apt-get update
+RUN apt install net-tools
